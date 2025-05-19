@@ -36,7 +36,6 @@ public class Login extends HttpServlet {
         // Compartimos el objeto para poder usarlo en la vista
         request.setAttribute("user", bean);
         
-        // Dependiendo de la lóó
         if(status){
             RequestDispatcher rd = request.getRequestDispatcher("success.jsp");
             rd.forward(request, response);

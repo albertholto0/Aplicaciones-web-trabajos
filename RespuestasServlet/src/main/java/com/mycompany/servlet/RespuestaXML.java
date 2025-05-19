@@ -9,10 +9,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- *
- * @author albertholto
+ * Servlet que genera una respuesta XML estática con información de un CD musical
+ * Proporciona datos en formato XML para ser consumidos por clientes
  */
-
 public class RespuestaXML extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)

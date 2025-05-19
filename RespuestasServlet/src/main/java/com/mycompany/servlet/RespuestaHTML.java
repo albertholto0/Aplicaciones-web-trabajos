@@ -9,8 +9,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- *
- * @author albertholto
+ * Servlet que genera una respuesta en formato XML con datos de un catálogo musical
+ * Implementa solo el método doGet para responder a solicitudes HTTP GET
  */
 
 public class RespuestaHTML extends HttpServlet {
